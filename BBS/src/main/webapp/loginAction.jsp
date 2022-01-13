@@ -18,6 +18,7 @@
  	UserDAO userDAO = new UserDAO();
  	int result = userDAO.login(user.getUserID(), user.getUserPassword());
  	if(result == 1){
+ 		session.setAttribute("userID", user.getUserID());
  		PrintWriter script = response.getWriter();
  		script.println("<script>");
  		script.println("location.href = 'main.jsp'"); //로그인 성공하면 main으로 넘겨줌

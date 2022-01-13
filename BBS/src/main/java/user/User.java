@@ -8,7 +8,6 @@ public class User {
 	private String userGender;
 	private String userEmail;
 	
-	
 	public String getUserID() {
 		return userID;
 	}

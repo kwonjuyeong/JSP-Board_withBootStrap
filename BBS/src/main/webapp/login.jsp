@@ -19,8 +19,8 @@
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">접속하기
   		</button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    	<li class = "active"><a href="login.jsp">로그인</a></li>
-    	<li><a href="join.jsp">회원가입</a></li>
+    	<a class="dropdown-item" href="login.jsp">로 그 인</a>
+    	<a class="dropdown-item" href="join.jsp">회 원 가 입</a>	
   </div>
   </div>
  </nav>
@@ -30,13 +30,16 @@
    		<div class="jumbotron" style="padding-top: 50px;margin-top: 50px;">
    			 <form method="post" action="loginAction.jsp">
     			 <h3 style="text-align: center;">로그인 화면</h3>
-     	<div class="form-group">
-     		 <input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
+     	<br>
+     	<div class="form-row">
+     		 <input type="text" class="form-control" id="userID" name="userID"placeholder="아 이 디" maxlength="20">
      	</div>
-     	<div class="form-group">
-      		 <input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
+     	<br>
+     	<div class="form-row">
+      		 <input type="password" class="form-control" placeholder="비 밀 번 호" id="userPassword" name="userPassword" maxlength="20">
      	</div>
-      		<input type="submit" class="btn btn-primary form-control" value="로그인">
+     	<br>
+      		<input type="submit" class="btn btn-info form-control" value="로 그 인">
    	 		</form>
    		</div>
   	 </div>
