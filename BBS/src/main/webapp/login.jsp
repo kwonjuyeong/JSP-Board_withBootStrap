@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<!-- <meta charset="UTF-8">-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8 ">
 <meta name="viewport" content="width=device-width", initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.min.css"> 
 <title>로그인</title>
@@ -19,15 +20,17 @@
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">접속하기
   		</button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    	<a class="dropdown-item" href="login.jsp">로 그 인</a>
-    	<a class="dropdown-item" href="join.jsp">회 원 가 입</a>	
+  		<li><a href="login.jsp">로 그 인</a></li>
+    	<li class = "active"><a href="join.jsp">회 원 가 입</a></li>
+    	<!--  <a class="dropdown-item" href="login.jsp">로 그 인</a>
+    	<a class="dropdown-item" href="join.jsp">회 원 가 입</a>	-->
   </div>
   </div>
  </nav>
  <div class="container">
   	<div class="col-lg-4"></div>
  	<div class="col-lg-4">
-   		<div class="jumbotron" style="padding-top: 50px;margin-top: 50px;">
+   		<div class="jumbotron" style="padding-top: 50px;">
    			 <form method="post" action="loginAction.jsp">
     			 <h3 style="text-align: center;">로그인 화면</h3>
      	<br>

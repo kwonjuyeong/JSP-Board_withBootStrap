@@ -19,7 +19,7 @@
  		userID = (String) session.getAttribute("userID");
  	}
  	
- 	if(userID != null){
+ 	if(userID == null){
  		
  		PrintWriter script = response.getWriter();
  		script.println("<script>");

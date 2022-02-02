@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width", initial-scale="1">
+<meta name="viewport" content="width=device-width", initial-scale="1"> <!-- 반응형 웹 메타 태그 -->
 <link rel="stylesheet" href="css/bootstrap.min.css"> 
 <title>로그인</title>
 </head>

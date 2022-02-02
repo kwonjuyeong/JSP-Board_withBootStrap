@@ -3,10 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<!-- <meta charset="UTF-8">-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8 ">
 <meta name="viewport" content="width=device-width", initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.min.css"> 
-<title>로그인</title>
+<title>회원가입</title>
 </head>
 <body>
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,8 +20,8 @@
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">접속하기
   		</button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    	<li class = "active"><a href="login.jsp">로그인</a></li>
-    	<li><a href="join.jsp">회원가입</a></li>
+    	<li class = "active"><a href="login.jsp">로 그 인</a></li>
+    	<li><a href="join.jsp">회 원 가 입</a></li>
   </div>
   </div>
  </nav>
