@@ -9,6 +9,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width", initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.min.css"> 
+<link rel="stylesheet" href="css/custom.css"> 
 <title>로그인</title>
 </head>
 <body>
@@ -113,7 +114,7 @@
                 	{
            		 	%>
                 		<a href="update.jsp?bbsID=<%=bbsID %>" class="btn btn-primary">수정</a>
-                		<a href="deleteAction.jsp?bbsID=<%=bbsID %>" class="btn btn-primary">삭제</a>
+                		<a onclick="return confirm('정말 삭제하시겠습니까?')" href="deleteAction.jsp?bbsID=<%=bbsID %>" class="btn btn-primary">삭제</a>
                 
             	<%     
                 }

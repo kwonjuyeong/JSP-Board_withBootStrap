@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+*{
+	font-family : 'Nanum Gothic';
+}
+h1{
+	font-family : 'Hanna';
+}
+
+img { max-width: 100%;  height: auto; }
+/* css파일 커스텀을 통해 웹사이트 세부 디자인을 해줄 수 있음*/ 
